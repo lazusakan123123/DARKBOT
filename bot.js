@@ -24,7 +24,7 @@ fs.readdir("./komutlar/", (err, files) => {
 bot.on("ready", async () => {
   console.log(`${bot.user.username} ${bot.guilds.size} sunucuda aktif!`);
 
-  bot.user.setActivity("d-yardım komutunu /n kulanabilirsiniz", {type: "WATCHING"});
+  bot.user.setActivity("d-yardım komutunu kulanabilirsiniz", {type: "WATCHING"});
 });
 
 bot.on("message", async message => {
